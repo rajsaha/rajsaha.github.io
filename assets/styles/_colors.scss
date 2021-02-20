@@ -1,0 +1,43 @@
+// * Navigation
+$main-background-color: inherit;
+$main-background-color-dark: #121212;
+
+$text-color: inherit;
+$text-color-dark: white;
+
+$logo-fill: #121212;
+$logo-fill-dark: white;
+
+$table-border-color: #121212;
+$table-border-color-dark: white;
+
+$nav-active-bg-color: #121212;
+$nav-active-bg-color-dark: white;
+
+$nav-active-a-color: white;
+$nav-active-a-color-dark: #121212;
+
+$nav-hover-bg-color: #121212;
+$nav-hover-bg-color-dark: white;
+
+$nav-hover-text-color: white;
+$nav-hover-text-color-dark: #121212;
+
+$portfolio-view-project-border: rgba(0, 0, 0, .2);
+$portfolio-view-project-border-dark: white;
+
+$in-development: #e2e2e2;
+$in-development-dark: #727272;
+
+$colors: (
+  --main-background-color: ($main-background-color, $main-background-color-dark),
+  --text-color: ($text-color, $text-color-dark),
+  --logo-fill: ($logo-fill, $logo-fill-dark),
+  --table-border-color: ($table-border-color, $table-border-color-dark),
+  --nav-active-bg-color: ($nav-active-bg-color, $nav-active-bg-color-dark),
+  --nav-active-a-color: ($nav-active-a-color, $nav-active-a-color-dark),
+  --nav-hover-bg-color: ($nav-hover-bg-color, $nav-hover-bg-color-dark),
+  --nav-hover-text-color: ($nav-hover-text-color, $nav-hover-text-color-dark),
+  --portfolio-view-project-border: ($portfolio-view-project-border, $portfolio-view-project-border-dark),
+  --in-development: ($in-development, $in-development-dark)
+);
