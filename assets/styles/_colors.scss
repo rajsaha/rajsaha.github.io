@@ -29,14 +29,14 @@ $portfolio-view-project-border-dark: white;
 $in-development: #e2e2e2;
 $in-development-dark: #727272;
 
-$custom-button-bg-color: white;
-$custom-button-bg-color-dark: #121212;
-$custom-button-text-color: #121212;
-$custom-button-text-color-dark: white;
-$custom-button-bg-color-hover: #121212;
-$custom-button-bg-color-hover-dark: white;
-$custom-button-text-color-hover: white;
-$custom-button-text-color-hover-dark: #121212;
+$custom-button-bg-color: #121212;
+$custom-button-bg-color-dark: white;
+$custom-button-text-color: white;
+$custom-button-text-color-dark: #121212;
+$custom-button-bg-color-hover: white;
+$custom-button-bg-color-hover-dark: #121212;
+$custom-button-text-color-hover: #121212;
+$custom-button-text-color-hover-dark: white;
 
 $colors: (
   --main-background-color: ($main-background-color, $main-background-color-dark),
