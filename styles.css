@@ -1,0 +1,149 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+body {
+  line-height: 1;
+}
+menu, ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.theme-light {
+  --main-background-color: #F2E5BB;
+  --text-color: inherit;
+  --logo-fill: #32302F;
+  --table-border-color: #32302F;
+  --nav-active-bg-color: #32302F;
+  --nav-active-a-color: white;
+  --nav-hover-bg-color: #32302F;
+  --nav-hover-text-color: white;
+  --portfolio-view-project-border: rgba(0, 0, 0, 0.2);
+  --in-development: #e2e2e2;
+  --custom-button-bg-color: #32302F;
+  --custom-button-text-color: white;
+  --custom-button-bg-color-hover: white;
+  --custom-button-text-color-hover: #32302F;
+}
+.theme-dark {
+  --main-background-color: #32302F;
+  --text-color: white;
+  --logo-fill: white;
+  --table-border-color: white;
+  --nav-active-bg-color: white;
+  --nav-active-a-color: #32302F;
+  --nav-hover-bg-color: white;
+  --nav-hover-text-color: #32302F;
+  --portfolio-view-project-border: white;
+  --in-development: #727272;
+  --custom-button-bg-color: white;
+  --custom-button-text-color: #32302F;
+  --custom-button-bg-color-hover: #32302F;
+  --custom-button-text-color-hover: white;
+}
+p, h1, h2, h3, h4, h5, span, table, button {
+  color: var(--text-color);
+  font-family: "JetBrains Mono", monospace;
+}
+b {
+  font-weight: 700;
+}
+.two-columns {
+  grid-template-columns: auto auto;
+}
+.three-columns {
+  grid-template-columns: auto auto auto;
+}
+.custom-button {
+  background-color: var(--custom-button-bg-color);
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1px solid var(--table-border-color);
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.custom-button span {
+  color: var(--custom-button-text-color);
+  margin-right: 5px;
+}
+.custom-button fa-icon {
+  color: var(--custom-button-text-color);
+}
+.custom-button:hover {
+  background-color: var(--custom-button-bg-color-hover);
+}
+.custom-button:hover span, .custom-button:hover fa-icon {
+  color: var(--custom-button-text-color-hover);
+}
+.markdown {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+.markdown p {
+  font-weight: 100;
+  line-height: 25px;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+.markdown p img {
+  width: 100%;
+  margin: 15px 0;
+}
+.markdown p a {
+  color: #647cff;
+  font-weight: bold;
+}
+.markdown h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=styles.css.map*/
