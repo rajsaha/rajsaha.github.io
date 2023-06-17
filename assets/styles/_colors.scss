@@ -1,46 +1,56 @@
 // * Navigation
-$main-background-color: #F2E5BB;
-$main-background-color-dark: #32302F;
+$main-background-color: #FFFAFB;
+$main-background-color-dark: #2B2C28;
 
 $text-color: inherit;
-$text-color-dark: white;
+$text-color-dark: #FFFAFB;
 
-$logo-fill: #32302F;
-$logo-fill-dark: white;
+$text-code-color: #FFFAFB;
+$text-code-color-dark: #2B2C28;
+$text-code-background: #339989;
+$text-code-background-dark: #FFFAFB;
+$text-anchor: #339989;
+$text-anchor-dark: #7DE2D1;
 
-$table-border-color: #32302F;
-$table-border-color-dark: white;
+$logo-fill: #2B2C28;
+$logo-fill-dark: #FFFAFB;
 
-$nav-active-bg-color: #32302F;
-$nav-active-bg-color-dark: white;
+$table-border-color: #2B2C28;
+$table-border-color-dark: #FFFAFB;
 
-$nav-active-a-color: white;
+$nav-active-bg-color: #2B2C28;
+$nav-active-bg-color-dark: #FFFAFB;
+
+$nav-active-a-color: #FFFAFB;
 $nav-active-a-color-dark: #32302F;
 
-$nav-hover-bg-color: #32302F;
-$nav-hover-bg-color-dark: white;
+$nav-hover-bg-color: #2B2C28;
+$nav-hover-bg-color-dark: #FFFAFB;
 
-$nav-hover-text-color: white;
+$nav-hover-text-color: #FFFAFB;
 $nav-hover-text-color-dark: #32302F;
 
 $portfolio-view-project-border: rgba(0, 0, 0, .2);
-$portfolio-view-project-border-dark: white;
+$portfolio-view-project-border-dark: #FFFAFB;
 
 $in-development: #e2e2e2;
 $in-development-dark: #727272;
 
-$custom-button-bg-color: #32302F;
-$custom-button-bg-color-dark: white;
-$custom-button-text-color: white;
-$custom-button-text-color-dark: #32302F;
-$custom-button-bg-color-hover: white;
-$custom-button-bg-color-hover-dark: #32302F;
-$custom-button-text-color-hover: #32302F;
-$custom-button-text-color-hover-dark: white;
+$custom-button-bg-color: #2B2C28;
+$custom-button-bg-color-dark: #FFFAFB;
+$custom-button-text-color: #FFFAFB;
+$custom-button-text-color-dark: #2B2C28;
+$custom-button-bg-color-hover: #FFFAFB;
+$custom-button-bg-color-hover-dark: #2B2C28;
+$custom-button-text-color-hover: #2B2C28;
+$custom-button-text-color-hover-dark: #FFFAFB;
 
 $colors: (
   --main-background-color: ($main-background-color, $main-background-color-dark),
   --text-color: ($text-color, $text-color-dark),
+  --text-code-color: ($text-code-color, $text-code-color-dark),
+  --text-code-background: ($text-code-background, $text-code-background-dark),
+  --text-anchor: ($text-anchor, $text-anchor-dark),
   --logo-fill: ($logo-fill, $logo-fill-dark),
   --table-border-color: ($table-border-color, $table-border-color-dark),
   --nav-active-bg-color: ($nav-active-bg-color, $nav-active-bg-color-dark),

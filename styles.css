@@ -1,6 +1,6 @@
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.1 | 20191019
    License: none (public domain)
@@ -25,78 +25,121 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
   display: block;
 }
+
 /* HTML5 hidden-attribute fix for newer browsers */
 *[hidden] {
   display: none;
 }
+
 body {
   line-height: 1;
 }
+
 menu, ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 .theme-light {
-  --main-background-color: #F2E5BB;
+  --main-background-color: #FFFAFB;
   --text-color: inherit;
-  --logo-fill: #32302F;
-  --table-border-color: #32302F;
-  --nav-active-bg-color: #32302F;
-  --nav-active-a-color: white;
-  --nav-hover-bg-color: #32302F;
-  --nav-hover-text-color: white;
+  --text-code-color: #FFFAFB;
+  --text-code-background: #339989;
+  --text-anchor: #339989;
+  --logo-fill: #2B2C28;
+  --table-border-color: #2B2C28;
+  --nav-active-bg-color: #2B2C28;
+  --nav-active-a-color: #FFFAFB;
+  --nav-hover-bg-color: #2B2C28;
+  --nav-hover-text-color: #FFFAFB;
   --portfolio-view-project-border: rgba(0, 0, 0, 0.2);
   --in-development: #e2e2e2;
-  --custom-button-bg-color: #32302F;
-  --custom-button-text-color: white;
-  --custom-button-bg-color-hover: white;
-  --custom-button-text-color-hover: #32302F;
+  --custom-button-bg-color: #2B2C28;
+  --custom-button-text-color: #FFFAFB;
+  --custom-button-bg-color-hover: #FFFAFB;
+  --custom-button-text-color-hover: #2B2C28;
 }
+
 .theme-dark {
-  --main-background-color: #32302F;
-  --text-color: white;
-  --logo-fill: white;
-  --table-border-color: white;
-  --nav-active-bg-color: white;
+  --main-background-color: #2B2C28;
+  --text-color: #FFFAFB;
+  --text-code-color: #2B2C28;
+  --text-code-background: #FFFAFB;
+  --text-anchor: #7DE2D1;
+  --logo-fill: #FFFAFB;
+  --table-border-color: #FFFAFB;
+  --nav-active-bg-color: #FFFAFB;
   --nav-active-a-color: #32302F;
-  --nav-hover-bg-color: white;
+  --nav-hover-bg-color: #FFFAFB;
   --nav-hover-text-color: #32302F;
-  --portfolio-view-project-border: white;
+  --portfolio-view-project-border: #FFFAFB;
   --in-development: #727272;
-  --custom-button-bg-color: white;
-  --custom-button-text-color: #32302F;
-  --custom-button-bg-color-hover: #32302F;
-  --custom-button-text-color-hover: white;
+  --custom-button-bg-color: #FFFAFB;
+  --custom-button-text-color: #2B2C28;
+  --custom-button-bg-color-hover: #2B2C28;
+  --custom-button-text-color-hover: #FFFAFB;
 }
-p, h1, h2, h3, h4, h5, span, table, button {
+
+h1, h2, h3, h4, h5 {
   color: var(--text-color);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Libre Baskerville", serif;
 }
+
+p, span, table, button {
+  color: var(--text-color);
+  font-family: "Source Sans 3", sans-serif;
+}
+
+a {
+  font-weight: bold;
+  color: var(--text-anchor);
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
+
+code {
+  background-color: var(--text-code-background);
+  border-radius: 5px;
+  color: var(--text-code-color);
+  padding: 0.15rem 0.6rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 b {
   font-weight: 700;
 }
+
 .two-columns {
   grid-template-columns: auto auto;
 }
+
 .three-columns {
   grid-template-columns: auto auto auto;
 }
+
 .custom-button {
   background-color: var(--custom-button-bg-color);
   cursor: pointer;
@@ -120,6 +163,7 @@ b {
 .custom-button:hover span, .custom-button:hover fa-icon {
   color: var(--custom-button-text-color-hover);
 }
+
 .markdown {
   display: block;
   max-width: 100%;
