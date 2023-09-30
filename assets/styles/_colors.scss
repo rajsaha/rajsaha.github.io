@@ -15,8 +15,8 @@ $text-anchor-dark: #7DE2D1;
 $logo-fill: #2B2C28;
 $logo-fill-dark: #FFFAFB;
 
-$table-border-color: #2B2C28;
-$table-border-color-dark: #FFFAFB;
+$table-border-color: #d3d3d3;
+$table-border-color-dark: #5b5b5b;
 
 $nav-active-bg-color: #2B2C28;
 $nav-active-bg-color-dark: #FFFAFB;
@@ -45,6 +45,13 @@ $custom-button-bg-color-hover-dark: #2B2C28;
 $custom-button-text-color-hover: #2B2C28;
 $custom-button-text-color-hover-dark: #FFFAFB;
 
+$left-border-line-circle-bg-color: rgba(61, 61, 61, 0.4);
+$left-border-line-circle-bg-color-dark: rgba(255, 255, 255, 0.4);
+$left-border-line-circle-bg-color-section-odd: rgb(54, 54, 54);
+$left-border-line-circle-bg-color-section-odd-dark: rgba(255, 255, 255, 1);
+$left-border-line-circle-bg-color-section-even: rgb(47, 47, 47);
+$left-border-line-circle-bg-color-section-even-dark: rgba(255, 255, 255, 0.4);
+
 $colors: (
   --main-background-color: ($main-background-color, $main-background-color-dark),
   --text-color: ($text-color, $text-color-dark),
@@ -62,5 +69,8 @@ $colors: (
   --custom-button-bg-color: ($custom-button-bg-color, $custom-button-bg-color-dark),
   --custom-button-text-color: ($custom-button-text-color, $custom-button-text-color-dark),
   --custom-button-bg-color-hover: ($custom-button-bg-color-hover, $custom-button-bg-color-hover-dark),
-  --custom-button-text-color-hover: ($custom-button-text-color-hover, $custom-button-text-color-hover-dark)
+  --custom-button-text-color-hover: ($custom-button-text-color-hover, $custom-button-text-color-hover-dark),
+  --left-border-line-circle-bg-color: ($left-border-line-circle-bg-color, $left-border-line-circle-bg-color-dark),
+  --left-border-line-circle-bg-color-section-odd: ($left-border-line-circle-bg-color-section-odd, $left-border-line-circle-bg-color-section-odd-dark),
+  --left-border-line-circle-bg-color-section-even: ($left-border-line-circle-bg-color-section-even, $left-border-line-circle-bg-color-section-even-dark),
 );

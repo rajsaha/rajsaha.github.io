@@ -67,7 +67,7 @@ table {
   --text-code-background: #339989;
   --text-anchor: #339989;
   --logo-fill: #2B2C28;
-  --table-border-color: #2B2C28;
+  --table-border-color: #d3d3d3;
   --nav-active-bg-color: #2B2C28;
   --nav-active-a-color: #FFFAFB;
   --nav-hover-bg-color: #2B2C28;
@@ -78,6 +78,9 @@ table {
   --custom-button-text-color: #FFFAFB;
   --custom-button-bg-color-hover: #FFFAFB;
   --custom-button-text-color-hover: #2B2C28;
+  --left-border-line-circle-bg-color: rgba(61, 61, 61, 0.4);
+  --left-border-line-circle-bg-color-section-odd: rgb(54, 54, 54);
+  --left-border-line-circle-bg-color-section-even: rgb(47, 47, 47);
 }
 
 .theme-dark {
@@ -87,7 +90,7 @@ table {
   --text-code-background: #FFFAFB;
   --text-anchor: #7DE2D1;
   --logo-fill: #FFFAFB;
-  --table-border-color: #FFFAFB;
+  --table-border-color: #5b5b5b;
   --nav-active-bg-color: #FFFAFB;
   --nav-active-a-color: #32302F;
   --nav-hover-bg-color: #FFFAFB;
@@ -98,6 +101,9 @@ table {
   --custom-button-text-color: #2B2C28;
   --custom-button-bg-color-hover: #2B2C28;
   --custom-button-text-color-hover: #FFFAFB;
+  --left-border-line-circle-bg-color: rgba(255, 255, 255, 0.4);
+  --left-border-line-circle-bg-color-section-odd: rgb(255, 255, 255);
+  --left-border-line-circle-bg-color-section-even: rgba(255, 255, 255, 0.4);
 }
 
 h1, h2, h3, h4, h5 {
