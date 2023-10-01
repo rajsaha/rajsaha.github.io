@@ -108,12 +108,14 @@ table {
 
 h1, h2, h3, h4, h5 {
   color: var(--text-color);
-  font-family: "Libre Baskerville", serif;
+  font-family: "Press Start 2P", serif;
+  line-height: 2.2rem;
+  text-shadow: 3px 3px rgb(61, 173, 155);
 }
 
 p, span, table, button {
   color: var(--text-color);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Fragment Mono", monospace;
 }
 
 a {
