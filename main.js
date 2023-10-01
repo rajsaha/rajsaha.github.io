@@ -595,12 +595,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.footer {
   cursor: pointer;
 }
 .footer .theme-toggle .light-icon-container {
-  padding-right: 1rem;
+  padding-right: 1.5rem;
   text-align: right;
 }
 .footer .theme-toggle .light-icon-container span {
   margin-right: 10px;
-}`, "",{"version":3,"sources":["webpack://./src/app/components/footer/footer.component.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,iCAAA;EACA,+CAAA;EACA,wBAAA;EACA,yBAAA;EACA,iBAAA;AACJ;AAAI;EACI,iBAAA;AAER;AACE;EACE,eAAA;AACJ;AAAI;EACE,mBAAA;EACA,iBAAA;AAEN;AADM;EACE,kBAAA;AAGR","sourcesContent":[".footer {\n    display: grid;\n    grid-template-columns: auto 200px;\n    border-top: 1px solid var(--table-border-color);\n    color: var(--text-color);\n    padding: 15px 0 15px 25px;\n    font-size: 0.8rem;\n    fa-icon {\n        margin-right: 5px;\n    }\n\n  .theme-toggle {\n    cursor: pointer;\n    .light-icon-container {\n      padding-right: 1rem;\n      text-align: right;\n      span {\n        margin-right: 10px;\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/app/components/footer/footer.component.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,iCAAA;EACA,+CAAA;EACA,wBAAA;EACA,yBAAA;EACA,iBAAA;AACJ;AAAI;EACI,iBAAA;AAER;AACE;EACE,eAAA;AACJ;AAAI;EACE,qBAAA;EACA,iBAAA;AAEN;AADM;EACE,kBAAA;AAGR","sourcesContent":[".footer {\n    display: grid;\n    grid-template-columns: auto 200px;\n    border-top: 1px solid var(--table-border-color);\n    color: var(--text-color);\n    padding: 15px 0 15px 25px;\n    font-size: 0.8rem;\n    fa-icon {\n        margin-right: 5px;\n    }\n\n  .theme-toggle {\n    cursor: pointer;\n    .light-icon-container {\n      padding-right: 1.5rem;\n      text-align: right;\n      span {\n        margin-right: 10px;\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___.toString();
 
