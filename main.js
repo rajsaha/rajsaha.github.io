@@ -23,12 +23,12 @@ const routes = [{
   path: '',
   component: _layout_main_main_component__WEBPACK_IMPORTED_MODULE_0__.MainComponent,
   children: [{
-    path: 'home',
+    path: '',
     loadChildren: () => __webpack_require__.e(/*! import() */ "src_app_pages_portfolio_portfolio_module_ts").then(__webpack_require__.bind(__webpack_require__, /*! ./pages/portfolio/portfolio.module */ 9553)).then(m => m.PortfolioModule)
   }]
 }, {
   path: '**',
-  redirectTo: 'home',
+  redirectTo: '',
   pathMatch: 'full'
 }];
 let AppRoutingModule = class AppRoutingModule {};
