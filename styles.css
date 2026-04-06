@@ -1,23 +1,86 @@
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].rules[0].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[6].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[6].rules[1].use[1]!./src/styles.scss?ngGlobalStyle ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/* http://meyerweb.com/eric/tools/css/reset/
-   v5.0.1 | 20191019
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, menu, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-main, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/* src/styles.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,41 +88,46 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
   display: block;
 }
-
-/* HTML5 hidden-attribute fix for newer browsers */
 *[hidden] {
   display: none;
 }
-
 body {
   line-height: 1;
 }
-
-menu, ol, ul {
+menu,
+ol,
+ul {
   list-style: none;
 }
-
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 .theme-light {
   --main-background-color: #FFFAFB;
   --text-color: inherit;
@@ -82,7 +150,6 @@ table {
   --left-border-line-circle-bg-color-section-odd: rgb(54, 54, 54);
   --left-border-line-circle-bg-color-section-even: rgb(47, 47, 47);
 }
-
 .theme-dark {
   --main-background-color: #2B2C28;
   --text-color: #FFFAFB;
@@ -105,26 +172,29 @@ table {
   --left-border-line-circle-bg-color-section-odd: rgb(255, 255, 255);
   --left-border-line-circle-bg-color-section-even: rgba(255, 255, 255, 0.4);
 }
-
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--text-color);
   font-family: "Press Start 2P", serif;
   line-height: 2.2rem;
   text-shadow: 3px 3px rgb(61, 173, 155);
 }
-
-p, span, table, button {
+p,
+span,
+table,
+button {
   color: var(--text-color);
   font-family: "Fragment Mono", monospace;
 }
-
 a {
   font-weight: bold;
   color: var(--text-anchor);
   text-decoration: none;
   border-bottom: 3px solid;
 }
-
 code {
   background-color: var(--text-code-background);
   border-radius: 5px;
@@ -135,19 +205,15 @@ code {
   margin-left: 5px;
   margin-right: 5px;
 }
-
 b {
   font-weight: 700;
 }
-
 .two-columns {
   grid-template-columns: auto auto;
 }
-
 .three-columns {
   grid-template-columns: auto auto auto;
 }
-
 .custom-button {
   background-color: var(--custom-button-bg-color);
   cursor: pointer;
@@ -168,10 +234,10 @@ b {
 .custom-button:hover {
   background-color: var(--custom-button-bg-color-hover);
 }
-.custom-button:hover span, .custom-button:hover fa-icon {
+.custom-button:hover span,
+.custom-button:hover fa-icon {
   color: var(--custom-button-text-color-hover);
 }
-
 .markdown {
   display: block;
   max-width: 100%;
@@ -198,4 +264,5 @@ b {
   max-width: 500px;
 }
 
-/*# sourceMappingURL=styles.css.map*/
+/* angular:styles/global:styles */
+/*# sourceMappingURL=styles.css.map */

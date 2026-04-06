@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/layout/main/main.component.scss"],
+  "sourcesContent": [".main {\n    background-color: var(--main-background-color);\n\n    .main-content {\n        .router {\n            z-index: 1;\n            position: relative;\n            margin-left: auto;\n            margin-right: auto;\n            padding: 2rem;\n            min-height: 100vh;\n            overflow-x: hidden;\n            display: grid;\n            place-content: center;\n        }\n    }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACI,oBAAA,IAAA;;AAGI,CAJR,KAIQ,CAAA,aAAA,CAAA;AACI,WAAA;AACA,YAAA;AACA,eAAA;AACA,gBAAA;AACA,WAAA;AACA,cAAA;AACA,cAAA;AACA,WAAA;AACA,iBAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/footer/footer.component.scss"],
+  "sourcesContent": [".footer {\n    display: grid;\n    grid-template-columns: auto 200px;\n    border-top: 1px solid var(--table-border-color);\n    color: var(--text-color);\n    padding: 15px 0 15px 25px;\n    font-size: 0.8rem;\n    fa-icon {\n        margin-right: 5px;\n    }\n\n  .theme-toggle {\n    cursor: pointer;\n    .light-icon-container {\n      padding-right: 1.5rem;\n      text-align: right;\n      span {\n        margin-right: 10px;\n      }\n    }\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACI,WAAA;AACA,yBAAA,KAAA;AACA,cAAA,IAAA,MAAA,IAAA;AACA,SAAA,IAAA;AACA,WAAA,KAAA,EAAA,KAAA;AACA,aAAA;;AACA,CAPJ,OAOI;AACI,gBAAA;;AAGN,CAXF,OAWE,CAAA;AACE,UAAA;;AACA,CAbJ,OAaI,CAFF,aAEE,CAAA;AACE,iBAAA;AACA,cAAA;;AACA,CAhBN,OAgBM,CALJ,aAKI,CAHF,qBAGE;AACE,gBAAA;;",
+  "names": []
+}
